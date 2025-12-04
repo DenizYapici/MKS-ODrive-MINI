@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [ffb_wheel.PcbDoc]
+   Generated File[ffb_wheel-RoundHoles.TXT]
+   Generated File[ffb_wheel-SlotHoles.TXT]
+   Generated File[ffb_wheel.LDP]
+   Generated File[ffb_wheel.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 19:39:26 On 4.12.2025
