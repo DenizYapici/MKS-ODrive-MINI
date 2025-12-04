@@ -1,4 +1,4 @@
-#Disclaimer / Learning Purpose Notice
+# Disclaimer / Learning Purpose Notice
 
 This project is a custom redesign of the MKS ODrive MINI board.
 I created this 4-layer PCB layout to improve my understanding of complex component placement, microcontroller and motor driver control, encoder interfaces, and the overall working principles of such systems.
