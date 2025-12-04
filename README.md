@@ -1,104 +1,95 @@
-Disclaimer / Learning Purpose Notice
+MKS ODrive MINI – Eğitim Amaçlı 4 Katmanlı PCB Yeniden Tasarımı
+📌 Sorumluluk Reddi / Öğrenme Amacı Bildirimi
 
-This project is a custom redesign of the MKS ODrive MINI board.
-I created this 4-layer PCB layout to improve my understanding of complex component placement, microcontroller and motor driver control, encoder interfaces, and the overall working principles of such systems.
-
-The schematic used as a reference was obtained from publicly available sources on the internet.
-This design is not intended for sale, production, or commercial use. It was created solely for educational and learning purposes.
+Bu proje, MKS ODrive MINI motor kontrol kartının özel bir eğitim amaçlı yeniden tasarımıdır. Bu 4 katmanlı PCB düzenini, aşağıdaki konulardaki anlayışımı derinleştirmek için tasarladım:
 
 
-MKS ODrive MINI – Educational 4-Layer PCB Redesign
-📌 Disclaimer / Learning Purpose Notice
+Karmaşık çok katmanlı PCB tasarımı
 
-This project is a custom educational redesign of the MKS ODrive MINI motor controller board.
-I designed this 4-layer PCB layout to deepen my understanding of:
+Yüksek akım motor sürücü düzeni prensipleri
 
-Complex multi-layer PCB design
+Mikrodenetleyici devreleri ve güç dağıtımı
 
-High-current motor driver layout principles
+Kodlayıcı sinyal koşullandırma ve arayüz tasarımı
 
-Microcontroller circuitry and power distribution
+Karma sinyal yönlendirme teknikleri (dijital + motor gücü)
 
-Encoder signal conditioning and interface design
+Yoğun PCB tasarımlarında bileşen yerleştirme stratejileri
 
-Mixed-signal routing techniques (digital + motor power)
+Referans olarak kullanılan şema , kamuya açık çevrimiçi kaynaklardan derlenmiştir .
 
-Component placement strategies in dense PCB designs
+Bu pano ticari kullanım, üretim veya satış için tasarlanmamıştır.
+Tamamen kişisel öğrenme ve deneyimleme amaçlıdır.
 
-The schematic used as a reference was collected from publicly available online resources.
+📘 Proje Genel Bakışı
 
-This board is NOT intended for commercial use, manufacturing, or sale.
-It is created solely for personal learning and experimentation.
+Bu depo, MKS ODrive MINI'nin bağımsız yeniden tasarımını içermektedir.
+Projenin amacı, orijinal kartın işlevsel mimarisini kopyalamak ve anlamaktır. Bu mimari şunları içerir:
 
-📘 Project Overview
+BLDC motor sürücü aşamaları
 
-This repository contains my independent redesign of the MKS ODrive MINI.
-The aim of the project is to replicate and understand the functional architecture of the original board, including:
+Kapı sürücü devreleri
 
-BLDC motor driver stages
+STM32 mikrodenetleyici alt sistemi
 
-Gate driver circuits
+Kodlayıcı arayüzleri (ABZ / artımlı)
 
-STM32 microcontroller subsystem
+Güç aşaması düzeni ve termal hususlar
 
-Encoder interfaces (ABZ / incremental)
+İletişim arayüzleri
 
-Power stage layout and thermal considerations
+Koruma devreleri ve filtreleme elemanları
 
-Communication interfaces
+Tasarım orijinal ürünü tam olarak yansıtmaz ve değişiklikler, basitleştirmeler veya eğitimsel uyarlamalar içerebilir.
 
-Protection circuits and filtering elements
+🛠️ Bu Yeniden Tasarımın Özellikleri
 
-The design does not fully reproduce the original product and may contain changes, simplifications, or educational adaptations.
+Güç ve sinyaller için kontrollü yönlendirmeye sahip 4 katmanlı PCB
 
-🛠️ Features of This Redesign
+STM32 tabanlı mikrodenetleyici bölümü
 
-4-layer PCB with controlled routing for power and signals
+BLDC motor kontrolü için MOSFET güç katı
 
-STM32-based microcontroller section
+Kodlayıcı giriş arayüzü
 
-MOSFET power stage for BLDC motor control
+USB / UART iletişim desteği
 
-Encoder input interface
+Öğrenme için optimize edilmiş ayrıştırma ve filtreleme düzeni
 
-USB / UART communication support
+Gerçek dünya tasarım kısıtlamalarına odaklanan tam yönlendirilmiş PCB
 
-Decoupling and filtering layout optimized for learning
+📂 Depo İçeriği
 
-Fully routed PCB with focus on real-world design constraints
+/PCB/– KiCad veya Altium şematik ve PCB dosyaları
 
-📂 Repository Contents
+/3D/– 3D modeller ve PCB oluşturma
 
-/PCB/ – KiCad or Altium schematic & PCB files
+/Docs/– Notlar, referans materyalleri ve tasarım açıklamaları
 
-/3D/ – 3D models and PCB rendering
+BOM.csv– Tasarımda kullanılan bileşen listesi
 
-/Docs/ – Notes, reference materials, and design explanations
+README.md– Proje dokümantasyonu
 
-BOM.csv – Component list used in the design
+🎯 Bu Projenin Amacı
 
-README.md – Project documentation
+Bu proje şu amaçla oluşturulmuştur:
 
-🎯 Purpose of This Project
+Gelişmiş PCB tasarım becerilerimi geliştirin
 
-This project is created to:
+Motor sürücü elektroniğinde en iyi uygulamaları öğrenin
 
-Improve my advanced PCB design skills
+Kodlayıcı sinyal işleme ve mikrodenetleyici entegrasyonunu anlayın
 
-Learn best practices in motor driver electronics
+Ticari motor kontrol panolarının nasıl tasarlandığını inceleyin
 
-Understand encoder signal handling and microcontroller integration
+Gömülü ve elektronik iş başvuruları için güçlü bir portföy parçası oluşturun
 
-Study how commercial motor control boards are architected
+⚠️ Yasal Uyarı
 
-Build a strong portfolio piece for embedded & electronics job applications
+Bahsi geçen tüm ticari markalar, ürün adları ve şemalar ilgili sahiplerine aittir.
+Bu projede hiçbir özel veya gizli bilgi kullanılmamıştır. Bu yeniden tasarım yalnızca eğitim amaçlı ve ticari olmayan kullanım
+içindir .
 
-⚠️ Legal Notice
+📧 İletişim
 
-All trademarks, product names, and schematics referenced belong to their respective owners.
-No proprietary or confidential information was used in this project.
-This redesign is for educational and non-commercial use only.
-
-📧 Contact
-
-If you have suggestions or want to discuss PCB design and motor control electronics, feel free to reach out.
+Önerileriniz varsa veya PCB tasarımı ve motor kontrol elektroniği hakkında görüşmek istiyorsanız, lütfen bize ulaşmaktan çekinmeyin.
