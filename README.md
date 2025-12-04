@@ -6,7 +6,7 @@ I created this 4-layer PCB layout to improve my understanding of complex compone
 The schematic used as a reference was obtained from publicly available sources on the internet.
 This design is not intended for sale, production, or commercial use. It was created solely for educational and learning purposes.
 
-MKS ODrive MINI – Educational 4-Layer PCB Redesign
+## MKS ODrive MINI – Educational 4-Layer PCB Redesign
 📌 Disclaimer / Learning Purpose Notice
 
 This project is a custom educational redesign of the MKS ODrive MINI motor controller board.
