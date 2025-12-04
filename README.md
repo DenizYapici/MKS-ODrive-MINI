@@ -68,15 +68,15 @@ Fully routed PCB with focus on real-world design constraints
 
 - **📂 Repository Contents**
 
-/PCB/ – KiCad or Altium schematic & PCB files
+`/PCB/` – KiCad or Altium schematic & PCB files
 
-/3D/ – 3D models and PCB rendering
+`/3D/`– 3D models and PCB rendering
 
-/Docs/ – Notes, reference materials, and design explanations
+`/Docs/` – Notes, reference materials, and design explanations
 
-BOM.csv – Component list used in the design
+`BOM.csv` – Component list used in the design
 
-README.md – Project documentation
+`README.md` – Project documentation
 
 - **🎯 Purpose of This Project**
 
